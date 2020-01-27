@@ -8,9 +8,9 @@ Source (منبع) : https://git.highhost.org/limner/CISCO-VPN-SERVICE/
 Cisco AnyConnect auto install shell
 
 
-yum install net-tools epel-release radcli -y
+yum install net-tools epel-release radcli wget nano git -y
 
-mkdir CISCO-VPN-SERVICE; cd CISCO-VPN-SERVICE
+git clone https://github.com/DNAPersian/cisco.git;cd cisco;
 
 chmod 777 cisco.sh
 
